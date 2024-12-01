@@ -9,7 +9,7 @@ namespace EntityLayer.Concrete
 {
     public class NewsLatter
     {
-        [Key]
+        
         public int NewsLatterID { get; set; }
         public string? Mail { get; set; }
     }
